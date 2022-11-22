@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-imagem {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    border: 2px solid #000;
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #000;
+    z-index: 1;
+}
+.div-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.esquerda {
+    background-image: url(img/esquerda.png);
+    background-position: center;
+    background-size: contain;
+}
+.direita {
+    background-image: url(img/direita.png);
+    background-position: center;
+    background-size: contain;
+}
+.btn:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn:active {
+    background-color: darkgray;
+}
